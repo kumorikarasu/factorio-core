@@ -1,0 +1,10 @@
+{
+  "name": "kumori-core",
+  "version": "0.1.0",
+  "title": "Kumori's Core Module",
+  "author": "kumori",
+  "contact": "kumori@ryougi.com",
+  "homepage": "N/A",
+  "description": "Contains base elements used in other mods",
+  "dependencies": []
+}
