@@ -2,9 +2,10 @@
   "name": "kumori-core",
   "version": "0.1.0",
   "title": "Kumori's Core Module",
+  "factorio_version": "0.14",
   "author": "kumori",
   "contact": "kumori@ryougi.com",
   "homepage": "N/A",
   "description": "Contains base elements used in other mods",
-  "dependencies": []
+  "dependencies": ["base >= 0.14.0"]
 }
