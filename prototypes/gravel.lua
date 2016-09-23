@@ -3,7 +3,7 @@ data:extend(
 {
   {
   type = "item",
-  name = "gravel",
+  name = "ku-gravel",
   icon = "__kumori-core__/graphics/gravel/gravel.png",
   flags = {"goes-to-main-inventory"},
   subgroup = "raw-material",

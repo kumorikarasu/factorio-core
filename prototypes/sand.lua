@@ -3,7 +3,7 @@ data:extend(
 {
   {
   type = "item",
-  name = "sand",
+  name = "ku-sand",
   icon = "__kumori-core__/graphics/sand/sand.png",
   flags = {"goes-to-main-inventory"},
   subgroup = "raw-material",

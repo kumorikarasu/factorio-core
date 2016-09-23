@@ -5,7 +5,7 @@ data:extend(
 {
   {
     type = "item",
-    name = "brick",
+    name = "ku-brick",
     icon = "__kumori-core__/graphics/brick/brick.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "terrain",
@@ -13,16 +13,16 @@ data:extend(
     stack_size = 100,
     place_as_tile =
     {
-      result = "brick-path",
+      result = "ku-brick-path",
       condition_size = 4,
       condition = { "water-tile" }
     }
   },
   {
     type = "tile",
-    name = "brick-path",
+    name = "ku-brick-path",
     needs_correction = false,
-    minable = {hardness = 0.2, mining_time = 0.5, result = "brick"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "ku-brick"},
     mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
     collision_mask = {"ground-tile"},
     walking_speed_modifier = 1.4,
